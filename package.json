@@ -1,0 +1,27 @@
+{
+  "name": "poc-genesys-whatsapp-mdw",
+  "version": "1.0.0",
+  "private": false,
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "express": "^4.19.2",
+    "fs": "0.0.1-security",
+    "https": "^1.0.0",
+    "localtunnel": "^2.0.2",
+    "purecloud-platform-client-v2": "^127.0.0",
+    "socket.io": "^4.7.5",
+    "ws": "^8.17.0"
+  },
+  "publishConfig": {
+    "registry": "https://__NEXUS_URL__"
+  }
+}
