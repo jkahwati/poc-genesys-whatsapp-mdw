@@ -5,7 +5,7 @@ const routes = require('express').Router()
 
 
 routes.get('/health', (req, res) => {
-  res.status(200).json({ message: 'Connected!', "pw": process.env.CLIENT_ID || "nada" });
+  res.status(200).json({ message: 'Connectedddd!', "pw": process.env.CLIENT_ID || "nada" });
 });
 routes.get('/chat', (req, res) => {
   const chatRoute = path.join(__dirname, '..', 'views', 'index.html');
