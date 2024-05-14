@@ -70,7 +70,7 @@
 
         socket.on('webhook', function (data) {
             const webhookData = JSON.parse(data);
-            const messageText = webhookData.message
+            const messageText = webhookData.text // Se cambia a text
             console.log("Llego de genesys lo siguiente:", webhookData)
             if (messageText !== "") {
                 messages.push({ sender: "Lia", text: messageText });
