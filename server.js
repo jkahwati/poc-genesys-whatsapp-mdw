@@ -34,7 +34,7 @@ const PREFIX = `/${config.API_NAME}/${config.API_ENV}/${config.API_VERSION}/`;
 app.use(PREFIX, routes);
 
 // Iniciamos el servidor
-const PORT = config.PORT || 3000;
+const PORT = process.env.PORT || config.PORT;
 server.listen(PORT, () => {
     console.log(`Servidor corriendo en el puerto ${PORT}`);
     console.log(`Path: ${PREFIX}`);
