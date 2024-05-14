@@ -36,7 +36,7 @@ function sendMessage() {
 
     // Realizar la llamada REST a la API POST
     var xhr = new XMLHttpRequest();
-    xhr.open('POST', 'http://localhost:3000/poc-genesys-whatsapp-mdw/dev/v1/openmessaging/genesys', true);
+    xhr.open('POST', 'https://sf-arch.up.railway.app/poc-genesys-whatsapp-mdw/dev/v1/openmessaging/genesys', true);
     xhr.setRequestHeader('Content-Type', 'application/json');
     var data = {
         "type": "event_callback",

@@ -3,7 +3,7 @@ module.exports = {
     clientId: process.env.CLIENT_ID,
     clientSecret: process.env.CLIENT_SECRET,
     // Open Messaging
-    open_messaging_secret_token: process.env.OMST,
-    open_messaging_direct_messaging_id: process.env.OMDM,
-    open_messaging_app_mention_id: process.env.OMAP
+    open_messaging_secret_token: process.env.OM_SECRET_TOKEN,
+    open_messaging_direct_messaging_id: process.env.OM_DMID,
+    open_messaging_app_mention_id: process.env.OM_AM
 };
