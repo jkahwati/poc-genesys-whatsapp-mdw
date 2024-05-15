@@ -44,7 +44,7 @@ function sendMessage() {
             "type": "message",
             "text": mensaje,
             "client_msg_id": "123",
-            "user": "jeka"
+            "user": "Pedro"
         }
     };
     xhr.send(JSON.stringify(data));
